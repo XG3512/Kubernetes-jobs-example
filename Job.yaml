@@ -5,6 +5,7 @@ metadata:
   labels:
     jobgroup: jobexample
 spec:
+  ttlSecondsAfterFinished: 100
   template:
     metadata:
       name: kubejob
